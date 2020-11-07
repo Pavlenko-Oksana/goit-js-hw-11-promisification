@@ -1,20 +1,5 @@
+// import { reject, resolve } from 'core-js/fn/promise';
 import './styles.css';
-
-
-const delay = ms => {
-  // Твой код
-  const promise = new Promise((resolve, reject) => {
-    setTimeout(() => {
-    const time = ms
-    resolve(time);
-  }, ms);
-  });  
-  return promise;
-};
-
-const logger = time => console.log(`Resolved after ${time}ms`);
-
-// Вызовы функции для проверки
-delay(2000).then(logger); // Resolved after 2000ms
-delay(1000).then(logger); // Resolved after 1000ms
-delay(1500).then(logger); // Resolved after 1500ms
+import './js/task01';
+import './js/task02';
+import './js/task03';
